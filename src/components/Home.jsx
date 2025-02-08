@@ -20,10 +20,13 @@ function Home() {
             <span>Facturación</span>
           </div>
           </Link>
+          <Link to="/inventory">
           <div className="option-card">
+          
             <img src="https://i.imgur.com/DbRqShf.png" alt="Gestión de Inventario" className="card-icon" />
             <span>Gestión De Inventario</span>
           </div>
+          </Link>
           <div className="option-card">
             <img src="https://i.imgur.com/Vw0Phbp.png" alt="Seguimiento de Costos" className="card-icon" />
             <span>Seguimiento De Costos</span>

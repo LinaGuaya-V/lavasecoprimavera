@@ -130,7 +130,14 @@ function BillingPage() {
                                     className="input-field"
                                 >
                                     <MenuItem value="Camiseta">Camiseta</MenuItem>
+                                    <MenuItem value="Pantalon">Camisa</MenuItem>
                                     <MenuItem value="Pantalon">Pantalon</MenuItem>
+                                    <MenuItem value="Pantalon">Corbata</MenuItem>
+                                    <MenuItem value="Pantalon">Vestido Hombre</MenuItem>
+                                    <MenuItem value="Pantalon">Vestido Fiesta</MenuItem>
+                                    <MenuItem value="Pantalon">Cubrecama</MenuItem>
+                                    <MenuItem value="Pantalon">Saco</MenuItem>
+
                                 </TextField>
                                 <TextField
                                     label="Valor"

@@ -1,3 +1,4 @@
+import InventoryPage from "./components/InventoryPage";
 import BillingPage from "./components/BillingPage";
 import Home from "./components/Home";
 import Login from "./components/Login"
@@ -9,9 +10,10 @@ const routes = [
   { path: "/register", element: <Register /> },
   { path: "/home", element: <Home /> },
   { path: "/billing", element: <BillingPage /> },
+  { path: "/inventory", element: <InventoryPage/>}
+
+  
 ]
-
-
 
 const router = createBrowserRouter(routes);
 

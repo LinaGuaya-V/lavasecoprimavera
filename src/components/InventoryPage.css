@@ -1,0 +1,165 @@
+/* InventoryPage.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E4D2F5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  
+  .inventory-page {
+    width: 100%;
+    max-width: 900px;
+    background-color: #E4D2F5;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  
+.back-button {
+    background-color: #fff;
+    color: #000;
+    margin-right: 10px;
+}
+.admin-button {
+    background-color: #fff;
+    color: #000;
+    margin-right: 10px;
+}
+  
+  h1 {
+    font-size: 2em;
+    color: #7b2465;
+  }
+  
+  .admin-panel {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .admin-panel span {
+    margin-right: 10px;
+    
+  }
+  
+  .admin-icon {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 50%;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    color: #E4D2F5;
+  }
+  
+  .search-bar {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .search-bar2 {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+    
+  }
+  .search-bar3 {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+    
+  }
+  .button-search {
+    background-color: #22ae24;
+    color: #ffffff;
+    margin-right: 10px;
+    
+  }
+  
+  .inventory-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    align-items: center;
+  }
+  
+  .inventory-table th, .inventory-table td {
+    padding: 12px;
+    border: 1px solid #684f6b;
+  }
+  
+  .inventory-table thead {
+    background-color: #c88fcf;
+    color: #fff;
+  }
+  
+  .odd-row {
+    background-color: #e9f1e8;
+  }
+  
+  .status-pending {
+    color: red;
+  }
+  
+  .status-delivered {
+    color: green;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .pagination button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #ddd;
+    color: #333;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .pagination .active {
+    background-color: #c88fcf;
+    color: #fff;
+  }
+
+  .add-invoice-button {
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+} 
+
+  .button-primary {
+    color: #6C1AB2;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: auto;
+    margin-top: 10px;
+}
